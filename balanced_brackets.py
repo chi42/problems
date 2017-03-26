@@ -1,4 +1,5 @@
 #!/usr/bin/python
+# https://www.hackerrank.com/challenges/ctci-balanced-brackets
 
 def is_matched(expression):
 	stack = []
