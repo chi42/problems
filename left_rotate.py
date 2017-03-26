@@ -84,6 +84,13 @@ def array_left_rotation3(a, n, k):
 
     return a
 
+
+n, k = map(int, raw_input().strip().split(' '))
+a = map(int, raw_input().strip().split(' '))
+answer = array_left_rotation(a, n, k)
+print ' '.join(map(str, answer))
+
+
 print array_left_rotation([0,1,2,3,4,5], 6, 2)
 print array_left_rotation2([0,1,2,3,4,5], 6, 2)
 #print array_left_rotation3([0,1,2,3,4,5], 6, 2)
