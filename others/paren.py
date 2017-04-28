@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# remove parenthesis in a string to make the parans balanced
+# perform in constant memory and linear time
 
 def balance_parens(l):
 	# start from the back
